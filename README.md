@@ -6,7 +6,7 @@ This project focuses on extracting and organizing medical-related data from unst
 
 ## 📌 Objective
 
-To automate the extraction of relevant medical information such as:
+To automate the extraction of relevant medical information, such as:
 - Patient name
 - Age
 - Gender
@@ -31,15 +31,15 @@ from prescription-style or clinical text documents using regular expressions and
 Project-Medical-Data-Extraction/
 │
 ├── medical_data_extraction.ipynb     # Main notebook containing the logic
-├── sample_data.txt                   # Sample input text file (prescriptions)
-├── output.csv                        # Extracted structured data
+├── sample_data.pdf                   # Sample input text file (prescriptions, patient details)
+├── cv_concepts.ipynb                 # Extracted structured data
 └── README.md                         # Project documentation
 
 ## 🔍 Features
 
 - 📄 Reads and parses unstructured clinical text
 - 🧠 Extracts key-value data using regular expressions (regex)
-- 📊 Stores structured output in a CSV file
+- 📊 Stores structured output in an IPython notebook file
 - 🔧 Easily extendable for various medical data fields
 
 ## 🚀 How to Run
@@ -58,11 +58,11 @@ A tool for extracting structured medical data from unstructured clinical notes a
 - 🧹 Extract key patient information (Name, Age, Gender)
 - 💊 Identify medications and dosages
 - 📅 Capture visit dates
-- 💾 Export to structured CSV format
+- 💾 Export to structured ipynb format
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-jupyter notebook medical_data_extraction.ipynb
+`jupyter notebook medical_data_extraction.ipynb`
 
 # Medical Data Extraction Notebook
 
@@ -99,24 +99,24 @@ A Jupyter notebook for extracting structured medical data from unstructured clin
 ## Installation
 
 # Navigate to project directory
-cd medical-data-extraction
+`cd medical-data-extraction`
 
 # Create virtual environment (recommended)
-python -m venv venv
+`python -m venv venv`
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 # Install dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 # Launch Jupyter Notebook
-jupyter notebook
+`Jupyter Notebook`
 
 #Requirements
-Python 3.8+
-Jupyter Notebook
-pandas
-regex
-python-dateutil
+`Python 3.8+`
+`Jupyter Notebook`
+`pandas`
+`regex`
+`python-dateutil`
 
    
 ## 👨‍💻 Author
