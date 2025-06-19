@@ -26,11 +26,9 @@ from prescription-style or clinical text documents using regular expressions and
 - **Jupyter Notebook**
 - **Pandas**
 
----
 
 ## 📁 Project Structure
-
-```plaintext
+plaintext
 Project-Medical-Data-Extraction/
 │
 ├── medical_data_extraction.ipynb     # Main notebook containing the logic
@@ -125,3 +123,15 @@ Jupyter Notebook
 pandas
 regex
 python-dateutil
+
+   
+## 👨‍💻 Author
+
+**Utkrisht Jalan**  
+Aspiring Data Analyst skilled in SQL, Python, Power BI, and Excel.  
+[GitHub Profile](https://github.com/Utkrisht2026)
+
+---
+
+## ⭐ If you found this useful, don't forget to star this repo!
+
