@@ -28,7 +28,6 @@ from prescription-style or clinical text documents using regular expressions and
 
 
 ## 📁 Project Structure
-plaintext
 Project-Medical-Data-Extraction/
 │
 ├── medical_data_extraction.ipynb     # Main notebook containing the logic
@@ -50,11 +49,6 @@ Project-Medical-Data-Extraction/
    ```bash
    git clone https://github.com/Utkrisht2026/Project-Medical-Data-Extraction.git
    cd Project-Medical-Data-Extraction
-
-# Medical Data Extraction Tool
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 A tool for extracting structured medical data from unstructured clinical notes and prescriptions.
 
@@ -80,10 +74,10 @@ A Jupyter notebook for extracting structured medical data from unstructured clin
 
 ## Usage
 
-1. Open `medical_data_extraction.ipynb` in Jupyter Notebook
+1. Open `prescription_parser.ipynb` `pd_parser.ipynb`  in Jupyter Notebook
 2. Run all cells sequentially
 3. Input your medical text when prompted
-4. Check `output.csv` for structured results
+4. Check `cv_concepts.ipynb` for structured results
 
 ## Sample Output
 
